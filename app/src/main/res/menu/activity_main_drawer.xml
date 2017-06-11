@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Дневник" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Оценки" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Расписание" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Сообщения" />
+        <item
+            android:id="@+id/nav_brief"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Brief" />
+    </group>
+
+    <item android:title="*???*">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="*Settings*" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="?android:attr/actionModeCloseDrawable"
+                android:title="Выход" />
+        </menu>
+    </item>
+
+</menu>

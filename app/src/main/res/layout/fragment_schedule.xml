@@ -1,0 +1,19 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.af.myeljur.ScheduleFragment"
+    android:background="#e0e0e0"
+    android:id="@+id/scheduleLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/scheduleGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:dividerHeight="4dp"
+        android:scrollbars="none" />
+</android.support.v4.widget.SwipeRefreshLayout>

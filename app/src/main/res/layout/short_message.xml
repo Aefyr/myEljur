@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/smLayout">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/expCheck"
+            android:background="@drawable/email_download"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="100"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/files"
+            android:id="@+id/smFiles"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="100"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Мое имя слишком сложное"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/smSubject"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorSubject"
+            android:textStyle="normal|bold"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_weight="0.80"
+            android:gravity="center_vertical|fill_horizontal|center"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/smFiles"
+            android:layout_toEndOf="@+id/expCheck"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Джиджавадзе Джиджавадзу Джовададзу"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/smName"
+            android:paddingTop="3dp"
+            android:paddingStart="3dp"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorLesson" />
+
+        <TextView
+            android:text="19.22.2076"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/smDate"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="3dp"
+            android:paddingEnd="3dp"
+            android:textAlignment="viewEnd"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorHomework" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/smName"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:text="тест  тест тест тест тест тестест  тест тест тест тест тест тетест  тест тест тест тест тест тетест  тест тест тест тест тест тетест  тест тест тест тест тест тетест  тест тест тест тест тест тетест  тест тест тест тест тест тет тест тест тест тест "
+                android:layout_height="wrap_content"
+                android:id="@+id/smPreviewText"
+                android:layout_below="@+id/smName"
+                android:layout_alignParentStart="true"
+                android:layout_width="match_parent"
+                android:layout_weight="0.75"
+                android:textColor="@color/colorLesson" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

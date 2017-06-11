@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="день"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scheduleDayTitle"
+                android:textSize="20sp"
+                android:textColor="@color/colorLesson"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:paddingStart="4dp" />
+
+            <TextView
+                android:text="урок"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scheduleDayLessons"
+                android:textSize="16sp"
+                android:textColor="@color/colorHomework"
+                android:paddingStart="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="1dp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

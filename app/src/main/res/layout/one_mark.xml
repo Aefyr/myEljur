@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/oneMarkLayout">
+
+    <TextView
+        android:text="08.08"
+        android:layout_width="48dp"
+        android:layout_height="18dp"
+        android:id="@+id/markDate"
+        android:textAlignment="center"
+        android:textColor="@color/colorLesson" />
+
+    <TextView
+        android:text="5"
+        android:layout_width="48dp"
+        android:id="@+id/oneMark"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/colorLesson"
+        android:textSize="28sp"
+        android:paddingBottom="4dp"
+        android:layout_height="38dp" />
+</LinearLayout>

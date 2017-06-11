@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Джувадазология"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/briefHomeworkLessonTitle"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:textSize="20sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:text="Выучить классы джувададз"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/briefHomeworkHomework"
+        android:paddingStart="6dp"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/briefHomeworkFiles"
+        android:paddingTop="4dp"
+        android:paddingStart="6dp"
+        android:paddingBottom="3dp"></LinearLayout>
+</LinearLayout>
